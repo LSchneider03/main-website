@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles.css" rel="stylesheet">
+    <title>About Us</title>
+</head>
+<body>
+    <div class="header">
+        <img src="Logo-cupcake.png" alt="logo">
+        <h1>Small World Cupcakes</h1>
+        <a href="./index.html">Home</a>
+        <a href="./About.html">About Us</a>
+        <a href="./Contact.html">Contact</a>
+
+        
+    </div>
+    <div id="test">
+     <p id="example-text">
+        test
+     </p>
+     <button id="example-button" onclick="changeText()">Click</button>
+
+        
+    
+        
+    </div>
+    <script>
+        var exampleText = document.getElementById("example-text");
+        exampleText.innerHTML = "JavaScript wrote this.";
+        const PI = 3.14159;
+        let javascriptIsNeat = true;
+        console.log("This is a message in your console");
+
+        const a = 2
+        const b = 0;
+        const c = 512;
+        console.log(a / b);
+        console.log(a * c);
+
+        const square = {
+            sides: 4,
+            length: 36,
+            color: "blue",
+            owner: "Larah"
+        };
+
+        console.log(square.owner + " has a square that has "+ square.sides + "sides. And it is " + square.color)
+
+        function changeText() {
+            document.getElementById("example-text").innerHTML = "Javascript";
+            exampleText.innerHTML = "Hello from Javascript";
+
+        }   
+    
+    </script>
+</body>
+
+
+</html>

@@ -25,8 +25,12 @@ h1, p {
     color: white;
     padding-right: 8px;
     }
+    
+
 .header img {
 width: 200px;
+
+
 }
 /* Content Styles */
 .content {
@@ -47,31 +51,51 @@ font-size: 30px
 }
 .Cupcake-text {
 font-size: 30px;
+
 }
+
 .contact-content{
 text-align:center;
 margin: 18;
 border-radius: 6px 6px 0 0;
 box-shadow: 6px 6px 6px grey
+
 }
+
 form {
     padding: 12px;
+
 }
+
 .contact-content input[type="submit"] {
     background: lightgrey;
     padding: 16px; 
     border-radius: 8px;
 }
+
+.shipping-form {
+    display: flex;
+    margin: 0 36%;
+}
+
+.shipping-left {
+    margin-right: 32px;
+}
+
+.products-content {
+    display: flex;
+}
+
 /* Footer Styles */
 .footer {
     text-align: center;
     margin-top: 12px;
 }
 
-}
 .header a:hover{
-    color: green;
+color: green;
 }
+
 .fa {
 font-size: 40px;
 text-decoration: none;
@@ -81,6 +105,7 @@ padding: 4px;
 .footer a:hover{
 color: grey;
 }
+
 .footer a:active{
     color: grey;
 }
@@ -92,6 +117,3 @@ color: grey;
 .content {
 margin: 16px;
 }
-
-
-

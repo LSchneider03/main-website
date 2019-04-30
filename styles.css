@@ -9,6 +9,21 @@ h1, p {
     padding: 0;
     text-align: center;
 }
+body {
+    -webkit-animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+    -ms-animation: fadein 1.5s;
+    -o-animaton: fadein 1.5s;
+    animation: fadein 1.5s;
+}
+@keyframes fadein {
+    from {
+    opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 .header {
     background: rgb(0, 255, 27);

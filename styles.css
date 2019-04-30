@@ -92,7 +92,9 @@ form {
     margin-top: 48px;
     margin-bottom: 48px;
 }
-
+.hidden {
+    visibility: hidden;
+}
 /* Footer Styles */
 .footer {
     text-align: center;

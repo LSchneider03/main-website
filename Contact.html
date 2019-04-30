@@ -37,22 +37,13 @@
     <h2>Contact Us!</h2>
     <form name="contact" method="POST" data-netlify="true" netlify>
         <p></p>
-        <input type="text" placeholder="name">
+        <input type="text" name="name" placeholder="name">
         <br>
         <br>
-        <input type="email" placeholder="email">
+        <input type="email" name="email" placeholder="email">
         <br>
         <br>
-        <input type="text" placeholder="Enter message...">
-        <br>
-        <br>
-        <input type="submit" value="submit" onclick=sumbitMessage()>
-
-        <script>
-        function sumbitMessage() {
-            window.alert("Thank you for your message.");
-        }
-        </script>
+        <textarea name="message"></textarea>
     </form>
  
     

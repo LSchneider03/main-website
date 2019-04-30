@@ -83,7 +83,14 @@ form {
 }
 
 .products-content {
+   margin-left: 25%;
+}
+
+.row {
     display: flex;
+    font-size: 20px;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 /* Footer Styles */
@@ -113,6 +120,10 @@ color: grey;
     .logo {
     text-align: center;
     justify-content: center;}
+
+    .row {
+        display: inline;
+    }
 }
 .content {
 margin: 16px;
